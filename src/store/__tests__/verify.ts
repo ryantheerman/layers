@@ -20,7 +20,7 @@ console.log('\n[1] Hierarchy + visibility');
 
 const a = s().addNode({ label: 'A', x: 0, y: 0 });
 const b = s().addNode({ label: 'B', x: 200, y: 0 });
-const c = s().addNode({ label: 'C', x: 400, y: 0 });
+void s().addNode({ label: 'C', x: 400, y: 0 });
 
 const a1 = s().addNode({ label: 'A1', x: 10, y: 10, parentId: a });
 const a2 = s().addNode({ label: 'A2', x: 10, y: 80, parentId: a });
